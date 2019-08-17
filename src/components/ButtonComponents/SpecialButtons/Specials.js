@@ -1,4 +1,6 @@
 import React from "react";
+import SpecialButton from './SpecialButton.js';
+import { specials } from '../../../data.js';
 
 //import any components needed
 
@@ -15,3 +17,5 @@ const Specials = () => {
     </div>
   );
 };
+
+export default Specials
