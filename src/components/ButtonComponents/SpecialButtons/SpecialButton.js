@@ -1,6 +1,6 @@
 import React from "react";
 
-const SpecialButton = () => {
+const SpecialButton = (props) => {
   return (
     <>
       <button onClick={() => {
@@ -12,3 +12,5 @@ const SpecialButton = () => {
     </>
   );
 };
+
+export default SpecialButton;
