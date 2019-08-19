@@ -6,7 +6,7 @@ import "./App.css";
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 import Display from './components/DisplayComponents/Display.js';
-import Nubmers from './components/ButtonComponents/NumberButtons/Numbers.js';
+import Numbers from './components/ButtonComponents/NumberButtons/Numbers.js';
 import Specials from './components/ButtonComponents/SpecialButtons/Specials.js';
 import Operators from './components/ButtonComponents/OperatorButtons/Operators.js';
 
@@ -22,6 +22,10 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
+        <Display />
+        <Numbers />
+        <Specials />
+        <Operators />
       </div>
     </div>
   );
