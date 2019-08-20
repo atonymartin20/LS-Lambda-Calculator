@@ -1,14 +1,38 @@
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
     background-color:#A81D36;
     border: 2px solid #515151;
-    width: 472px;
+    width: 99%;
     height:709px;
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 15px;
     box-sizing: border-box;
-    /* padding: 0px; */
-    /* margin-top: 0px; */
+    padding: 33px 6.5%;
 }
+
+.logo-container {
+    width: 100%;
+}
+
+.logo-container .logo {
+    width: 30%;
+}
+
+.App {
+    width: 100%;
+    padding-right: 6%;
+}
+
+/* .display-container {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 3.0rem;
+    border-radius: 35px;
+    padding: 10px;
+
+    border: 2px solid orange;
+} */

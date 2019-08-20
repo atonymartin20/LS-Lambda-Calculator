@@ -27,7 +27,7 @@ function App() {
       setDisplayValue(displayValue => eval(displayValue));
     }
     else {
-      setDisplayValue(displayValue => displayValue + " " + operator + " ");
+      setDisplayValue(displayValue => displayValue + operator);
     }
   };
 
