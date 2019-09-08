@@ -36,11 +36,16 @@ function App() {
       <Logo />
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-        {/* Commit 1 */}
         <Display number={displayValue} />
-        <Numbers addNumber={addNumber} />
-        <Specials />
-        <Operators addOperator={addOperator} />
+        <div className = "flexContainer">
+          <div className ="flexLeft">
+            <Specials />
+            <Numbers addNumber={addNumber} />
+          </div>
+          <div className = "flexRight">
+            <Operators addOperator={addOperator} />
+          </div>
+        </div>
       </div>
     </div>
   );
