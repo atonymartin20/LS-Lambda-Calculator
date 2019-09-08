@@ -1,15 +1,14 @@
 .number-button {
-    width: 80px;
-    border-radius: 50%;
-    height: 80px;
-    font-size: 2.0rem;
     background-color: #184379;
-    color: white;
-    border: 0px;
-    border-bottom: 4px solid #480E14;
 }
 
 .number-button:nth-of-type(10) {
-    width: 190px;
+    width: 195px;
     border-radius: 50px;
+}
+
+.number-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -1,0 +1,9 @@
+.operator-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.operator-button {
+    background-color: #237293;
+}

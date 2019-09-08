@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import NumberButton from './NumberButton.js';
 import { numbers } from '../../../data.js';
+import "./index.css";
+
 //import any components needed
 
 
@@ -10,7 +12,7 @@ const Numbers = (props) => {
   // STEP 2 - add the imported data to state
   const [numberState, setNumberState] = useState(numbers);
   return (
-    <div>
+    <div className = 'number-div'>
       {numberState.map(number => {
         return (
           <NumberButton key={number} text={number} addNumber={props.addNumber} />

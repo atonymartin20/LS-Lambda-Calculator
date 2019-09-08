@@ -10,7 +10,7 @@ const Specials = (props) => {
   // STEP 2 - add the imported data to state
 
   return (
-    <div>
+    <div className="special-div">
       {specials.map(special => 
         <SpecialButton text={special} addSpecial={props.addSpecial}/>
       )}
