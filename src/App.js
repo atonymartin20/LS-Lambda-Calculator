@@ -41,7 +41,6 @@ function App() {
           <div className ="flexLeft">
             <Specials />
             <Numbers addNumber={addNumber} />
-            {/* Commit 3 */}
           </div>
           <div className = "flexRight">
             <Operators addOperator={addOperator} />
